@@ -4,9 +4,9 @@
         <attribute name="name" value="nilai_analisis"/>
         <attribute name="authors" value="user"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2025-10-17 03:28:09 PM"/>
+        <attribute name="saved" value="2025-10-17 04:59:18 PM"/>
         <attribute name="created" value="dXNlcjtMQVBUT1AtU0tFUk9HSk07MjAyNS0xMC0xNzswMjoyMzo1MSBQTTsyODQx"/>
-        <attribute name="edited" value="dXNlcjtMQVBUT1AtU0tFUk9HSk07MjAyNS0xMC0xNzswMzoyODowOSBQTTszOzI5NjA="/>
+        <attribute name="edited" value="dXNlcjtMQVBUT1AtU0tFUk9HSk07MjAyNS0xMC0xNzswNDo1OToxOCBQTTs0OzI5NjY="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
