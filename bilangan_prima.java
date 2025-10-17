@@ -8,7 +8,7 @@ public class bilangan_prima {
         int x;
 
         x = Integer.parseInt(input.nextLine());
-        if (x % 2 == 0 && x != 2) {
+        if (x % 2 == 0 && x = 2) {
         }
         System.out.println(isPrima(x));
     }
