@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="bilangan_prima"/>
+        <attribute name="authors" value="user"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-10-17 03:49:57 PM"/>
+        <attribute name="created" value="dXNlcjtMQVBUT1AtU0tFUk9HSk07MjAyNS0xMC0xNzswMzoxMToyMyBQTTsyODM4"/>
+        <attribute name="edited" value="dXNlcjtMQVBUT1AtU0tFUk9HSk07MjAyNS0xMC0xNzswMzo0OTo1NyBQTTsyOzI5NjU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="x" type="Integer" array="False" size=""/>
+            <input variable="x"/>
+            <if expression="x mod 2=0&amp;&amp; x!=2">
+                <then/>
+                <else/>
+            </if>
+            <output expression="isPrima(x)" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

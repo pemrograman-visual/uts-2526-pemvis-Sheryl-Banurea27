@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="factorial"/>
+        <attribute name="authors" value="acer"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-10-17 03:41:16 PM"/>
+        <attribute name="created" value="YWNlcjtMQVBUT1AtTzMzNlE5Qk87MjAyMi0xMi0xMTswOTozMDozMSBQTTsyNzA5"/>
+        <attribute name="edited" value="YWNlcjtMQVBUT1AtTzMzNlE5Qk87MjAyMi0xMi0xMTswOTozMzozMSBQTTsyOzI4MjE="/>
+        <attribute name="edited" value="dXNlcjtMQVBUT1AtU0tFUk9HSk07MjAyNS0xMC0xNzswMzo0MToxNiBQTTsxOzI5NTE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="x, result" type="Integer" array="False" size=""/>
+            <input variable="x"/>
+            <if expression="0&lt;x&amp;&amp;x&lt;=15">
+                <then>
+                    <assign variable="result" expression="factorial(x)"/>
+                    <output expression="&quot;factorial(&quot;&amp;x&amp;&quot;)=&quot;&amp;result" newline="True"/>
+                </then>
+                <else>
+                    <if expression="x=0">
+                        <then>
+                            <output expression="&quot;1&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;x harus dari 0 sampai 15&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+    <function name="factorial" type="Integer" variable="result">
+        <parameters>
+            <parameter name="inX" type="Integer" array="False"/>
+        </parameters>
+        <body>
+            <declare name="result" type="Integer" array="False" size=""/>
+            <if expression="inX==1">
+                <then>
+                    <output expression="1" newline="True"/>
+                    <assign variable="result" expression="1"/>
+                </then>
+                <else>
+                    <output expression="inX&amp;&quot;x&quot;" newline="False"/>
+                    <assign variable="result" expression="inX*factorial(inX-1)"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="fibonacci_sum"/>
+        <attribute name="authors" value="user"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-10-17 02:50:42 PM"/>
+        <attribute name="created" value="dXNlcjtMQVBUT1AtU0tFUk9HSk07MjAyNS0xMC0xNzswMjowNzowMyBQTTsyODQw"/>
+        <attribute name="edited" value="dXNlcjtMQVBUT1AtU0tFUk9HSk07MjAyNS0xMC0xNzswMjo1MDo0MiBQTTs0OzI5NTI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, i, b, jumlah, n, c" type="Integer" array="False" size=""/>
+            <assign variable="i" expression="1"/>
+            <assign variable="a" expression="1"/>
+            <assign variable="b" expression="1"/>
+            <assign variable="jumlah" expression="0"/>
+            <input variable="n"/>
+            <for variable="i" start="i" end="n" direction="inc" step="1">
+                <assign variable="jumlah" expression="jumlah+a"/>
+                <assign variable="c" expression="a"/>
+                <assign variable="a" expression="b"/>
+                <assign variable="b" expression="c+b"/>
+            </for>
+            <output expression="jumlah" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
